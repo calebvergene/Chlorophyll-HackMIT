@@ -10,6 +10,7 @@ function App() {
         <GoogleMap />
         <StreetViewMap />
       </APIProvider>
+      
     </>
   );
 }

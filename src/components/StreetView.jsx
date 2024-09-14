@@ -1,7 +1,7 @@
 const StreetViewPanorama = () => {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-  const lat = 42.345573;
-  const lng = -71.098326;
+  const lat = 42.41;
+  const lng = -71.012;
   const size = "600x400";
   const fov = 90; // Set the field of view
   const pitch = 0; // Keep the pitch constant
