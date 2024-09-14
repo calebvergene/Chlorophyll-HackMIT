@@ -21,22 +21,21 @@ export default function GoogleMap() {
         {landmarks.map((landmark, index) => (
           <AdvancedMarker
             key={index}
-            position={{ lat: landmark.lat, lng: landmark.long }}  // Use coordinates from the JSON
-            onClick={() => clickLandmark(landmark)}  // Trigger modal when a landmark is clicked
+            position={{ lat: landmark.lat, lng: landmark.long }}
+            onClick={() => clickLandmark(landmark)}  
           >
             <Pin background={'#00000'} glyphColor={'#090'} borderColor={'#000'} />
           </AdvancedMarker>
         ))}
       </Map>
 
-      {/* Sliding Info Panel with Framer Motion */}
       <AnimatePresence>
         {selectedLandmark && (
           <motion.div
-            initial={{ x: '-100%', opacity: 0 }}  // Slide in from left with initial opacity 0
-            animate={{ x: 0, opacity: 1 }}        // Animate to visible position
-            exit={{ x: '-100%', opacity: 0 }}      // Slide out and fade away
-            transition={{ duration: 0.5 }}         // Animation duration
+            initial={{ x: '-100%', opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            exit={{ x: '-100%', opacity: 0 }}
+            transition={{ duration: 0.5 }}
             className="fixed top-0 left-0 h-full w-1/3 bg-white shadow-lg z-50 p-6 text-black/90"
           >
             <h2 className="text-xl font-bold mb-4">Landmark Details</h2>
