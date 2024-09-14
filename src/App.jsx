@@ -1,17 +1,17 @@
-import './App.css'
-import { AdvancedMarker, APIProvider, Map } from "@vis.gl/react-google-maps";
+import "./App.css";
+import { APIProvider } from "@vis.gl/react-google-maps";
 import GoogleMap from "./components/GoogleMap";
 import StreetViewMap from "./components/StreetView";
 
 function App() {
   return (
     <>
-      <div>
-      <GoogleMap/>
-      <StreetViewMap />
-    </div>
+      <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
+        <GoogleMap />
+        <StreetViewMap />
+      </APIProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
