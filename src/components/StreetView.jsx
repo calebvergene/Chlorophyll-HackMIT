@@ -1,3 +1,5 @@
+// import useStreetViewService from "../hooks/useStreetViewService";
+
 const StreetViewPanorama = () => {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
   const lat = 42.41;
@@ -13,17 +15,21 @@ const StreetViewPanorama = () => {
     return `https://maps.googleapis.com/maps/api/streetview?size=${size}&location=${lat},${lng}&fov=${fov}&heading=${heading}&pitch=${pitch}&key=${apiKey}`;
   });
 
+  // const streetViewService = useStreetViewService();
+
+  // streetViewService.getPanorama(streetViewLocationRequest);
+
   return (
     <div>
       <h1>Street View Panorama</h1>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="flex flex-wrap">
         {/* Displaying all of the images needed for the panorama */}
         {imageUrls.map((url, index) => (
           <img
             key={index}
             src={url}
             alt={`Street View Heading ${index * 45}`}
-            style={{ margin: "5px" }}
+            className="m-1"
           />
         ))}
       </div>
