@@ -6,6 +6,18 @@ import landmarks from "../UHILandmarks.json";
 export default function GoogleMap() {
   const [selectedLandmark, setSelectedLandmark] = useState(null);
 
+  const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+  const size = "600x400";
+  const fov = 90; // Set the field of view
+  const pitch = 0; // Keep the pitch constant
+  // Generate an array of headings to create the panorama (e.g., 0°, 45°, 90°, ... 360°)
+  const headings = [0, 45, 90, 135, 180, 225, 270, 315];
+  const imageUrls = selectedLandmark
+    ? headings.map((heading) => {
+        return `https://maps.googleapis.com/maps/api/streetview?size=${size}&location=${selectedLandmark.lat},${selectedLandmark.long}&fov=${fov}&heading=${heading}&pitch=${pitch}&key=${apiKey}`;
+      })
+    : [];
+
   const clickLandmark = (landmark) => {
     setSelectedLandmark(landmark);
   };
@@ -46,7 +58,7 @@ export default function GoogleMap() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "-100%", opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="fixed top-0 left-0 h-full w-1/3 bg-white shadow-lg z-50 p-6 text-black/90"
+            className="fixed top-0 left-0 h-full w-1/3 bg-white shadow-lg z-50 p-6 text-black/90 overflow-auto"
           >
             <h2 className="text-xl font-bold mb-4">Landmark Details</h2>
             <p>
@@ -86,6 +98,17 @@ export default function GoogleMap() {
             >
               Close
             </button>
+            <div className="flex flex-wrap">
+              {/* Displaying all of the images needed for the panorama */}
+              {imageUrls.map((url, index) => (
+                <img
+                  key={index}
+                  src={url}
+                  alt={`Street View Heading ${index * 45}`}
+                  className="m-1"
+                />
+              ))}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
