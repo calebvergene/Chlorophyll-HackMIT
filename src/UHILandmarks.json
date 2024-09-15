@@ -1,6 +1,6 @@
 [
   {
-    "locationName": "Harvard Yard, Cambridge, MA",
+    "locationName": "Harvard Yard",
     "lat": 42.374091,
     "long": -71.11672130984299,
     "Annual daytime SUHI": "63.23 °F",
@@ -11,8 +11,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Northeastern University Snell Library, Boston, MA",
-    "lat": 42.338333750000004,
+    "locationName": "Northeastern University Library",
+    "lat": 42.337933750000004,
     "long": -71.08794163506803,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -22,9 +22,9 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Massachusetts College of Art and Design, Boston, MA",
-    "lat": 42.33682565,
-    "long": -71.09930712967261,
+    "locationName": "Massachusetts College of Art",
+    "lat": 42.33652565,
+    "long": -71.09830712967261,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
     "Summer daytime SUHI": "82.72 °F",
@@ -33,7 +33,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Cambridge College, Cambridge, MA",
+    "locationName": "Cambridge College",
     "lat": 42.36879415,
     "long": -71.11090360807815,
     "Annual daytime SUHI": "63.23 °F",
@@ -44,8 +44,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Fenway Park, Fenway-Kenmore, Boston, MA",
-    "lat": 42.34658755,
+    "locationName": "Fenway Park",
+    "lat": 42.34758755,
     "long": -71.09699144357171,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -55,8 +55,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Back Bay Station, Boston, MA",
-    "lat": 42.3475422,
+    "locationName": "Back Bay Station",
+    "lat": 42.3495422,
     "long": -71.07499,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -66,7 +66,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Kendall/MIT Station, Cambridge, MA",
+    "locationName": "Kendall/MIT Station",
     "lat": 42.36237285,
     "long": -71.08564286485426,
     "Annual daytime SUHI": "63.23 °F",
@@ -77,8 +77,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Harvard Art Museums, Cambridge, MA",
-    "lat": 42.37410595,
+    "locationName": "Harvard Art Museums",
+    "lat": 42.37440595,
     "long": -71.11411477385815,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -88,8 +88,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Suffolk University 73 Tremont Street, Boston, MA",
-    "lat": 42.356701099999995,
+    "locationName": "Suffolk University 73 Tremont Street",
+    "lat": 42.355701099999995,
     "long": -71.06105776439689,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -99,7 +99,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Boston Public Library, Back Bay, Boston, MA",
+    "locationName": "Boston Public Library",
     "lat": 42.3493298,
     "long": -71.0786547381636,
     "Annual daytime SUHI": "63.23 °F",
@@ -110,18 +110,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Museum of Fine Arts, Boston, MA",
-    "lat": 42.3394573,
-    "long": -71.09389696266355,
-    "Annual daytime SUHI": "63.23 °F",
-    "Annual nighttime SUHI": "47.68 °F",
-    "Summer daytime SUHI": "82.72 °F",
-    "Summer nighttime SUHI": "65.46 °F",
-    "Winter daytime SUHI": "43.73 °F",
-    "Winter nighttime SUHI": "29.89 °F"
-  },
-  {
-    "locationName": "Boston Public Garden, Boston, MA",
+    "locationName": "Boston Public Garden",
     "lat": 42.3540901,
     "long": -71.07004020962789,
     "Annual daytime SUHI": "63.23 °F",
@@ -132,7 +121,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "MIT Stata Center, Cambridge, MA",
+    "locationName": "MIT Stata Center",
     "lat": 42.3619245,
     "long": -71.0915241,
     "Annual daytime SUHI": "63.23 °F",
@@ -143,8 +132,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Harvard Science Center, Cambridge, MA",
-    "lat": 42.3764925,
+    "locationName": "Harvard Science Center",
+    "lat": 42.3765925,
     "long": -71.11705733069653,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -154,8 +143,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Prudential Tower, Boston, MA",
-    "lat": 42.3471718,
+    "locationName": "Prudential Tower",
+    "lat": 42.3461718,
     "long": -71.0825068669119,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -165,9 +154,9 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Charles River Esplanade, Boston, MA",
+    "locationName": "Charles River Esplanade",
     "lat": 42.35618665,
-    "long": -71.07529234626209,
+    "long": -71.07419234626209,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
     "Summer daytime SUHI": "82.72 °F",
@@ -176,7 +165,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Longfellow Bridge, Cambridge, MA",
+    "locationName": "Longfellow Bridge",
     "lat": 42.3617446,
     "long": -71.0775067,
     "Annual daytime SUHI": "63.23 °F",
@@ -187,7 +176,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Harvard Kennedy School, Cambridge, MA",
+    "locationName": "Harvard Kennedy School",
     "lat": 42.3719885,
     "long": -71.1217612,
     "Annual daytime SUHI": "63.23 °F",
@@ -198,8 +187,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "MIT Museum, Cambridge, MA",
-    "lat": 42.3619754,
+    "locationName": "MIT Museum",
+    "lat": 42.3615454,
     "long": -71.0864154,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -209,7 +198,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Boston Common, Boston, MA",
+    "locationName": "Boston Common",
     "lat": 42.35503995,
     "long": -71.0660709970736,
     "Annual daytime SUHI": "63.23 °F",
@@ -220,8 +209,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Copley Square, Boston, MA",
-    "lat": 42.3499921,
+    "locationName": "Copley Square",
+    "lat": 42.3494921,
     "long": -71.07640950207518,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -231,7 +220,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Massachusetts General Hospital, Boston, MA",
+    "locationName": "Massachusetts General Hospital",
     "lat": 42.36286045,
     "long": -71.06875296664998,
     "Annual daytime SUHI": "63.23 °F",
@@ -242,18 +231,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "John F. Kennedy Presidential Library, Boston, MA",
-    "lat": 42.316179250000005,
-    "long": -71.03402572416168,
-    "Annual daytime SUHI": "63.23 °F",
-    "Annual nighttime SUHI": "47.68 °F",
-    "Summer daytime SUHI": "82.72 °F",
-    "Summer nighttime SUHI": "65.46 °F",
-    "Winter daytime SUHI": "43.73 °F",
-    "Winter nighttime SUHI": "29.89 °F"
-  },
-  {
-    "locationName": "CambridgeSide Galleria, Cambridge, MA",
+    "locationName": "CambridgeSide Galleria",
     "lat": 42.3669743,
     "long": -71.0764722,
     "Annual daytime SUHI": "63.23 °F",
@@ -264,7 +242,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Newbury Street, Back Bay, Boston, MA",
+    "locationName": "Newbury Street, Back Bay",
     "lat": 42.3518179,
     "long": -71.0743521,
     "Annual daytime SUHI": "63.23 °F",
@@ -275,8 +253,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Lechmere Canal Park, Cambridge, MA",
-    "lat": 42.36904665,
+    "locationName": "Lechmere Canal Park",
+    "lat": 42.37004665,
     "long": -71.07463843744034,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -286,7 +264,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Simmons University, Boston, MA",
+    "locationName": "Simmons University",
     "lat": 42.338935449999994,
     "long": -71.10043183883623,
     "Annual daytime SUHI": "63.23 °F",
@@ -297,8 +275,8 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Seaport District, Boston, MA",
-    "lat": 42.347301,
+    "locationName": "Seaport District",
+    "lat": 42.346301,
     "long": -71.03692907922103,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
@@ -308,9 +286,9 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Harvard Divinity School, Cambridge, MA",
-    "lat": 42.3800857,
-    "long": -71.1130123,
+    "locationName": "Harvard Divinity School",
+    "lat": 42.378675,
+    "long": -71.1210123,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
     "Summer daytime SUHI": "82.72 °F",
@@ -319,7 +297,7 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Harvard Law School, Cambridge, MA",
+    "locationName": "Harvard Law School",
     "lat": 42.3791064,
     "long": -71.1196785,
     "Annual daytime SUHI": "63.23 °F",
@@ -330,14 +308,91 @@
     "Winter nighttime SUHI": "29.89 °F"
   },
   {
-    "locationName": "Boston Children's Hospital, Boston, MA",
-    "lat": 42.3373219,
-    "long": -71.1057039092664,
+    "locationName": "Boston Children's Hospital",
+    "lat": 42.3388219,
+    "long": -71.1047039092664,
     "Annual daytime SUHI": "63.23 °F",
     "Annual nighttime SUHI": "47.68 °F",
     "Summer daytime SUHI": "82.72 °F",
     "Summer nighttime SUHI": "65.46 °F",
     "Winter daytime SUHI": "43.73 °F",
     "Winter nighttime SUHI": "29.89 °F"
+  },
+  {
+    "locationName": "Boston, MA",
+    "lat": 42.38,
+    "long": -71.09,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "South Boston, MA",
+    "lat": 42.33,
+    "long": -71.07,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "West Boston, MA",
+    "lat": 42.351,
+    "long": -71.13,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "Boston, MA",
+    "lat": 42.365,
+    "long": -71.197,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "North Boston, MA",
+    "lat": 42.4,
+    "long": -71.11,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "North Boston, MA",
+    "lat": 42.42,
+    "long": -71.08,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
+  },
+  {
+    "locationName": "North Boston, MA",
+    "lat": 42.41,
+    "long": -71.04,
+    "Annual daytime SUHI": "34.90 °F",
+    "Annual nighttime SUHI": "32.65 °F",
+    "Summer daytime SUHI": "36.43 °F",
+    "Summer nighttime SUHI": "33.17 °F",
+    "Winter daytime SUHI": "33.82 °F",
+    "Winter nighttime SUHI": "32.56 °F"
   }
 ]

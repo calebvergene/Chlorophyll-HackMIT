@@ -42,7 +42,7 @@ export default function GoogleMap() {
       {/* Google Map */}
       <Map
         defaultCenter={{ lat: 42.3601, lng: -71.0942 }}
-        defaultZoom={12}
+        defaultZoom={14}
         mapId="DEMO_MAP_ID"
         gestureHandling={"greedy"}
         disableDefaultUI={true}
@@ -76,22 +76,11 @@ export default function GoogleMap() {
                 <h2 className="font-bold text-4xl">Landmark Details</h2>
                 <button
                   onClick={closeModal}
-                  className="ml-auto px-2 py-2 bg-black/90 text-white rounded-md"
+                  className="ml-auto px-2 py-2 text-black/90 rounded-md"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
                 </button>
               </div>
               <p className="text-xl mb-1">
