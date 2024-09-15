@@ -61,7 +61,7 @@ export default function GoogleMap() {
           </AdvancedMarker>
         ))}
       </Map>
-
+      <Heatmap />
       <AnimatePresence>
         {selectedLandmark && (
           <motion.div
@@ -139,7 +139,6 @@ export default function GoogleMap() {
                 {showAll ? "Show Less" : "Show More"}
               </button>
             )}
-            
           </motion.div>
         )}
       </AnimatePresence>
