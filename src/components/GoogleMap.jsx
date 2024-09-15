@@ -42,7 +42,7 @@ export default function GoogleMap() {
     <div className="h-screen w-screen relative">
       {/* Google Map */}
       <Map
-        defaultCenter={{ lat: 42.3601, lng: -71.0942 }}
+        defaultCenter={{ lat: 42.3601, lng: -71.0982 }}
         defaultZoom={14}
         mapId="DEMO_MAP_ID"
         gestureHandling={"greedy"}
