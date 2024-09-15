@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Heatmap from "./Heatmap";
 import landmarks from "../UHILandmarks.json";
 import { controlNetPrompt } from "../config";
+import toast from "react-hot-toast";
 
 export default function GoogleMap() {
   const [selectedLandmark, setSelectedLandmark] = useState(null);
@@ -131,10 +132,18 @@ export default function GoogleMap() {
       }
 
       // Cache the generated images for the selected landmark in localStorage
-      localStorage.setItem(
-        selectedLandmark.locationName,
-        JSON.stringify(slicedImages)
-      );
+      try {
+        localStorage.setItem(
+          selectedLandmark.locationName,
+          JSON.stringify(slicedImages)
+        );
+      } catch (error) {
+        console.error("Local Storage Error: ", error);
+        localStorage.clear();
+        toast("Browser cache has been cleared to free up space.", {
+          icon: "⚠️",
+        });
+      }
 
       // Display the sliced images
       setGreenScapeImageUrls(slicedImages);
