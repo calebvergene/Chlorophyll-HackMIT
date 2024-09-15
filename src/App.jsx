@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
           {/* Temporary, im making landing page */}
-          <Route path="/" element={<GoogleMap />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/map" element={<GoogleMap />} />
           <Route path="/panorama" element={<CustomPanorama />} />
-          <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
     </APIProvider>
