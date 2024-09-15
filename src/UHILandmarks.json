@@ -383,16 +383,5 @@
     "Summer nighttime SUHI": "33.17 °F",
     "Winter daytime SUHI": "33.82 °F",
     "Winter nighttime SUHI": "32.56 °F"
-  },
-  {
-    "locationName": "North Boston, MA",
-    "lat": 42.41,
-    "long": -71.04,
-    "Annual daytime SUHI": "34.90 °F",
-    "Annual nighttime SUHI": "32.65 °F",
-    "Summer daytime SUHI": "36.43 °F",
-    "Summer nighttime SUHI": "33.17 °F",
-    "Winter daytime SUHI": "33.82 °F",
-    "Winter nighttime SUHI": "32.56 °F"
   }
 ]

@@ -10,8 +10,8 @@ const Heatmap = () => {
     if (!visualization) return null;
 
     return new window.google.maps.visualization.HeatmapLayer({
-      radius: 30,
-      opacity: 0.8,
+      radius: 80,
+      opacity: 0.7,
     });
   }, [visualization]);
 

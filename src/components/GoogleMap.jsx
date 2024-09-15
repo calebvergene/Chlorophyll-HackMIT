@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AdvancedMarker, Map, Pin } from "@vis.gl/react-google-maps";
 import { motion, AnimatePresence } from "framer-motion";
+import Heatmap from "./Heatmap";
 import landmarks from "../UHILandmarks.json";
 
 export default function GoogleMap() {
