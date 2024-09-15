@@ -73,8 +73,8 @@ export default function GoogleMap() {
             className="fixed top-0 left-0 h-full w-1/3 bg-white shadow-lg z-50 p-6 px-8 text-black/90 overflow-auto rounded-r-3xl"
           >
             <div className="mb-6">
-              <div className="flex justify-between items-center mb-3 w-full">
-                <h2 className="font-bold text-4xl">Landmark Details</h2>
+              <div className="flex justify-between items-center mb-5 w-full">
+                <h2 className="font-bold text-4xl">{selectedLandmark.locationName}</h2>
                 <button
                   onClick={closeModal}
                   className="ml-auto px-2 py-2 text-black/90 rounded-md"
@@ -87,7 +87,7 @@ export default function GoogleMap() {
               <p className="text-xl mb-1">
                 <strong>📍Latitude:</strong> {selectedLandmark.lat}
               </p>
-              <p className="text-xl mb-1">
+              <p className="text-xl mb-4">
                 <strong>📍Longitude:</strong> {selectedLandmark.long}
               </p>
               <p className="text-xl mb-1">
@@ -99,16 +99,16 @@ export default function GoogleMap() {
                 {selectedLandmark["Annual nighttime SUHI"]}
               </p>
             </div>
-            <div className="flex justify-between items-center mb-4 mt-7">
+            <div className="flex justify-between items-center mb-2 mt-7">
               <h2 className="font-bold text-3xl">Street View</h2>
-              <button className="bg-emerald-600 text-white rounded-md p-2 px-7 pl-5 font-semibold flex items-center">
+              <button className="bg-gradient-to-r from-emerald-600 to-emerald-400 text-white text-lg rounded-md p-2 px-7 pl-5 font-semibold flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6 mr-2"
+                  className="w-6 h-6 mr-1"
                 >
                   <path
                     strokeLinecap="round"
@@ -140,6 +140,8 @@ export default function GoogleMap() {
                 {showAll ? "Show Less" : "Show More"}
               </button>
             )}
+        <h2 className="font-bold text-3xl mt-6">Urban Heat Island Data</h2>
+            <img className="mt-2" src="public/0.png" alt="UHI Data" />
           </motion.div>
         )}
       </AnimatePresence>
