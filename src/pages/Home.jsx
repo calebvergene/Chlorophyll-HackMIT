@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
@@ -9,7 +8,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className='bg-[url("/1.png")] bg-cover h-full w-full text-black/90'>
+    <div className='bg-[url("/MIT-lp-2.png")] bg-cover h-full w-full text-black/90'>
       <div className="flex items-center justify-between h-screen">
         <div className="w-1/2 flex flex-col items-center justify-center ml-10 mb-10">
           <div className="border border-gray-500 rounded-lg px-2 py-1 left-0 text-xs mb-3 font-semibold mr-[388px]">
