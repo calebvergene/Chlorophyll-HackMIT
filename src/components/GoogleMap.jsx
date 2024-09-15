@@ -31,7 +31,7 @@ export default function GoogleMap() {
       {/* Google Map */}
       <Map
         defaultCenter={{ lat: 42.3601, lng: -71.0942 }}
-        defaultZoom={10}
+        defaultZoom={12}
         mapId="DEMO_MAP_ID"
         gestureHandling={"greedy"}
         disableDefaultUI={true}
@@ -60,44 +60,34 @@ export default function GoogleMap() {
             transition={{ duration: 0.5 }}
             className="fixed top-0 left-0 h-full w-1/3 bg-white shadow-lg z-50 p-6 text-black/90 overflow-auto"
           >
-            <h2 className="text-xl font-bold mb-4">Landmark Details</h2>
-            <p>
-              <strong>Latitude:</strong> {selectedLandmark.lat}
-            </p>
-            <p>
-              <strong>Longitude:</strong> {selectedLandmark.long}
-            </p>
-            <p>
-              <strong>Annual Daytime SUHI:</strong>{" "}
-              {selectedLandmark["Annual daytime SUHI"]}
-            </p>
-            <p>
-              <strong>Annual Nighttime SUHI:</strong>{" "}
-              {selectedLandmark["Annual nighttime SUHI"]}
-            </p>
-            <p>
-              <strong>Summer Daytime SUHI:</strong>{" "}
-              {selectedLandmark["Summer daytime SUHI"]}
-            </p>
-            <p>
-              <strong>Summer Nighttime SUHI:</strong>{" "}
-              {selectedLandmark["Summer nighttime SUHI"]}
-            </p>
-            <p>
-              <strong>Winter Daytime SUHI:</strong>{" "}
-              {selectedLandmark["Winter daytime SUHI"]}
-            </p>
-            <p>
-              <strong>Winter Nighttime SUHI:</strong>{" "}
-              {selectedLandmark["Winter nighttime SUHI"]}
-            </p>
-
-            <button
-              onClick={closeModal}
-              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
-            >
-              Close
-            </button>
+            <div className="mb-6">
+                <div className="flex justify-between items-center mb-3 w-full">
+                    <h2 className="font-bold text-4xl">Landmark Details</h2>
+                    <button
+                        onClick={closeModal}
+                        className="ml-auto px-2 py-2 bg-black/90 text-white rounded-md"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+                    </button>
+                </div>
+                <p className="text-xl mb-1">
+                <strong>📍Latitude:</strong> {selectedLandmark.lat}
+                </p>
+                <p className="text-xl mb-1">
+                <strong>📍Longitude:</strong> {selectedLandmark.long}
+                </p>
+                <p className="text-xl mb-1">
+                <strong>🌅 Annual Daytime SUHI:</strong>{" "}
+                {selectedLandmark["Annual daytime SUHI"]}
+                </p>
+                <p className="text-xl mb-1">
+                <strong>🌃 Annual Nighttime SUHI:</strong>{" "}
+                {selectedLandmark["Annual nighttime SUHI"]}
+                </p>
+            </div>
+            
             <div className="flex flex-wrap">
               {/* Displaying all of the images needed for the panorama */}
               {imageUrls.map((url, index) => (
