@@ -9,17 +9,17 @@ const HomePage = () => {
   };
 
   return (
-    <div className='bg-[url("/MIT-lp-2.png")] bg-cover h-full w-full text-black/90'>
+    <div className='bg-[url("/1.png")] bg-cover h-full w-full text-black/90'>
       <div className="flex items-center justify-between h-screen">
         <div className="w-1/2 flex flex-col items-center justify-center ml-10 mb-10">
           <div className="border border-gray-500 rounded-lg px-2 py-1 left-0 text-xs mb-3 font-semibold mr-[388px]">
             HackMIT 24
           </div>
-          <h1 className="text-6xl font-bold mr-[85px]">
-            Chlorophyll <span className="mx-10"></span>
+          <h1 className="text-6xl font-bold mr-[25px]">
+            Chlorophyll.ai <span className="mx-10"></span>
           </h1>
-          <h3 className="text-black/50 mt-3 text-lg mr-[143px]">
-            Visualize solutions to urban heat islands.
+          <h3 className="text-black/50 mt-3 text-lg mr-[103px]">
+            Fighting urban heat islands with trees (and AI)
           </h3>
           <div className="flex flex-row mt-11 text-lg font-rubik">
             <div className="relative inline-flex group">
