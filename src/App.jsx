@@ -4,18 +4,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GoogleMap from "./components/GoogleMap";
 import CustomPanorama from "./components/CustomPanorama";
 import Home from "./pages/Home";
-import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
-      <Toaster />
       <Router>
         <Routes>
           {/* Temporary, im making landing page */}
           <Route path="/" element={<GoogleMap />} />
           <Route path="/panorama" element={<CustomPanorama />} />
-          <Route path="/map" element={<Home />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
     </APIProvider>
