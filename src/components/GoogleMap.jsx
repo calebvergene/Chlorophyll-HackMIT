@@ -309,15 +309,18 @@ export default function GoogleMap() {
             <img className="mt-2" src="/0.png" alt="UHI Data" />
 
             {/* Clear browser cache */}
-            <button
-              onClick={() => {
-                localStorage.clear();
-                setGreenScapeImageUrls([]);
-              }}
-              className="mt-2 px-4 py-2 bg-red-500 text-white rounded"
-            >
-              Clear Cache
-            </button>
+            <div className="w-full flex justify-center">
+              <button
+                onClick={() => {
+                  localStorage.clear();
+                  setGreenScapeImageUrls([]);
+                }}
+                className="mt-2 px-8 py-2 bg-red-500 text-white rounded font-medium"
+              >
+                Clear Cache
+              </button>
+            </div>
+            
           </motion.div>
         )}
       </AnimatePresence>
