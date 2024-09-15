@@ -28,11 +28,13 @@ export default function GoogleMap() {
   };
 
   const [showAll, setShowAll] = useState(false); // State to control showing all images
-  
+
   // Filter out only the even-indexed images
   const evenIndexedImages = imageUrls.filter((_, index) => index % 2 === 0);
-  
-  const imagesToShow = showAll ? evenIndexedImages : evenIndexedImages.slice(0, 6); // Show all or first 6 even-indexed images
+
+  const imagesToShow = showAll
+    ? evenIndexedImages
+    : evenIndexedImages.slice(0, 6); // Show all or first 6 even-indexed images
 
   const toggleShowAll = () => {
     setShowAll(!showAll); // Toggle between showing all and showing fewer images
@@ -74,14 +76,27 @@ export default function GoogleMap() {
           >
             <div className="mb-6">
               <div className="flex justify-between items-center mb-5 w-full">
-                <h2 className="font-bold text-4xl">{selectedLandmark.locationName}</h2>
+                <h2 className="font-bold text-4xl">
+                  {selectedLandmark.locationName}
+                </h2>
                 <button
                   onClick={closeModal}
                   className="ml-auto px-2 py-2 text-black/90 rounded-md"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18 18 6M6 6l12 12"
+                    />
+                  </svg>
                 </button>
               </div>
               <p className="text-xl mb-1">
@@ -140,8 +155,8 @@ export default function GoogleMap() {
                 {showAll ? "Show Less" : "Show More"}
               </button>
             )}
-        <h2 className="font-bold text-3xl mt-6">Urban Heat Island Data</h2>
-            <img className="mt-2" src="public/0.png" alt="UHI Data" />
+            <h2 className="font-bold text-3xl mt-6">Urban Heat Island Data</h2>
+            <img className="mt-2" src="/0.png" alt="UHI Data" />
           </motion.div>
         )}
       </AnimatePresence>
